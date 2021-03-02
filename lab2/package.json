@@ -1,0 +1,29 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab 2 for CS 554 Spring 2021",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --trace-warnings app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "author": "Max Shi 10439248",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp-image": "^6.2.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
