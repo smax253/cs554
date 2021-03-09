@@ -1,6 +1,11 @@
 @import 'variables';
 @import './src/styles/bootstrap/scss/bootstrap';
 
+html,
+body {
+    background-color: $body-background;
+}
+
 header h1 {
     width: 100%;
     text-align: center;
@@ -29,4 +34,19 @@ h2 {
 }
 .modal-title {
     font-size: 20px;
+}
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: $card-background;
+    color: $card-text-color;
+}
+
+.modal {
+    font-family: $font-family-awful;
 }
