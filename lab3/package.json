@@ -1,0 +1,19 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "Lab 3 for CS 554 Spring 2021",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Max Shi 10439248",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "redis": "^3.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+<main class="results">
+    {{#if results}}
+    <ul>
+        {{#each results}}
+        <li>
+            <a href="{{link}}">{{title}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+</main>

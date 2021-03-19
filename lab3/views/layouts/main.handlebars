@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/public/site.css">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <form action="/search" method="POST">
+        <label for="searchTerm">Search Term</label>
+        <input type="text" id="searchTerm" name="searchTerm">
+        <button type="submit">Submit</button>
+    </form>
+    {{{ body }}}
+</body>
+
+</html>

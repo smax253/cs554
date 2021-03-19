@@ -1,0 +1,12 @@
+<main>
+    <h1>Popular search terms</h1>
+    {{#if terms}}
+    <ol>
+        {{#each terms}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ol>
+    {{else}}
+    <h2>No searches found!</h2>
+    {{/if}}
+</main>

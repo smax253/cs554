@@ -1,0 +1,42 @@
+<main class="show-info">
+    {{#if error}}
+    <p class="error">{{error}}</p>
+    {{else}}
+    <div>
+        <h1>{{name}}</h1>
+        {{#if imageLink}}
+        <img alt="Image for {{name}}" src="{{imageLink}}">
+        {{else}}
+        <img alt="No image available" src="/public/img/noimage.jpg">
+        {{/if}}
+        <dl>
+            {{#if language}}
+            <dt>Language</dt>
+            <dd>{{language}}</dd>
+            {{/if}}
+            {{#if genres}}
+            <dt>Genres</dt>
+            <dd>
+                <ul>
+                    {{#each genres}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </dd>
+            {{/if}}
+            {{#if rating}}
+            <dt>Average Rating</dt>
+            <dd>{{rating}}</dd>
+            {{/if}}
+            {{#if network}}
+            <dt>Network</dt>
+            <dd>{{network.name}}</dd>
+            {{/if}}
+            {{#if summary}}
+            <dt>Summary</dt>
+            <dd>{{{summary}}}</dd>
+            {{/if}}
+        </dl>
+    </div>
+    {{/if}}
+</main>
