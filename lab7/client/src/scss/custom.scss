@@ -1,0 +1,17 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.single-portrait {
+    width: 50%;
+    height: auto;
+}
+
+a {
+    color: #0072ee !important;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}

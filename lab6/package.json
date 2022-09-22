@@ -1,20 +1,20 @@
 {
-  "name": "lab7",
+  "name": "lab6",
   "version": "1.0.0",
-  "description": "GraphQL backend for lab 7",
-  "main": "index.js",
+  "description": "Lab 6 Backend",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Max Shi 10439248",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.24.0",
+    "apollo-server": "^2.23.0",
     "axios": "^0.21.1",
     "bluebird": "^3.7.2",
-    "blueimp-md5": "^2.18.0",
     "graphql": "^15.5.0",
-    "redis": "^3.1.2"
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
   }
 }
